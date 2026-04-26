@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> AgusC</title>
+    <style>
+        /* Esto es lo que crea las cajas */
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            font-family: sans-serif;
+        }
+
+        .contenedor-general {
+            width: 90%;
+            max-width: 800px;
+            border: 4px solid black;
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .caja {
+            border: 2px solid rgb(10, 10, 10);
+            padding: 15px;
+        }
+
+        .seccion-titulo {
+            text-align: center;
+            background-color: #cccdcd;
+            
+        }
+
+        .fila-contenido {
+            display: flex; /* Esto pone las columnas una al lado de la otra */
+            gap: 20px;
+        }
+
+        .columna-experiencia {
+            flex: 1;
+            min-height: 300px;
+            background-color: #cccdcd;
+        }
+
+        .columna-derecha {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .caja-imagen { flex: 2; background-color: #cacccd; min-height: 150px; }
+        .caja-descripcion { flex: 1; background-color: #cccdcd; }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor-general">
+        
+        <header class="caja seccion-titulo">
+            <h1>¡Hola, soy AgusC!</h1>
+        </header>
+
+        <div class="fila-contenido">
+            
+            <section class="caja columna-experiencia">
+                <h2><u>Experiencia laboral</u></h2>
+                <p>° Actualmente trabajo en toda el area industrial relacionado con maquinar</p>
+                <p>° Tengo basta experiencia en manejo de autoelevadores</p>
+                <p>° Tengo experiencia en manejo de gruas</p>
+            </section>
+
+            <aside class="columna-derecha">
+                <div class="caja caja-imagen">
+                    <h3>Imagen aquí</h3>
+                </div>
+                <div class="caja caja-descripcion">
+                    <h3>Descripción</h3>
+                    <p>¡Espero seguir mejorando!</p>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+</body>
+</html>

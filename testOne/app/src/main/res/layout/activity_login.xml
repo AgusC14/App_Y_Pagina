@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido Ciclista!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:textColor="#333333"/>
+
+    <Button
+        android:id="@+id/btnLoginGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Continuar con Google"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#757575"
+        android:layout_marginBottom="15dp"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/btnLoginFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Continuar con Facebook"
+        android:backgroundTint="#1877F2"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/btnLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Usar mi correo electrónico"
+        android:backgroundTint="#333333"
+        android:textColor="#FFFFFF"
+        android:elevation="4dp"/>
+
+</LinearLayout>
